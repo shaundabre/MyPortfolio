@@ -3,9 +3,9 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a dedicated aspiring full stack developer enthusiastic about building reliable and scalable web applications. While I'm new to the field, I've been actively learning and gaining proficiency in front-end technologies such as React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My objective is to apply my knowledge to develop inventive solutions that contribute to business growth and provide users with outstanding experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am an enthusiastic and versatile aspiring full stack developer with a strong passion for creating efficient and user-friendly web applications. Although I'm new to the professional scene, my journey in web development began with a deep curiosity about how things work. I have been actively learning and gaining familiarity with technologies such as React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to continuously learn and adapt to new challenges in the field of web development. I thrive in collaborative environments and find joy in solving complex problems to deliver high-quality solutions. Beyond coding, I stay active by exploring new technologies and contributing to open-source projects.`;
 
 export const EXPERIENCES = [
   {
@@ -40,19 +40,20 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Wander Nest",
     image: project1,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-  },
+    description: "Web Development Project using MongoDB, Express, React, NodeJs. The application allows users to browse and book rental properties listed on the platform. Key features include viewing property details such as location, amenities, and pricing, as well as booking accommodations based on selected dates. The project uses React Router for navigation, custom CSS for styling, and RESTful APIs with MongoDB for backend services.",
+    technologies: ["MongoDB", "Express", "React", "NodeJs"]
+  }
+  
+  ,
   {
-    title: "Task Management App",
+    title: "Crop Yield Prediction And Recommendation",
     image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
-  },
+    description: "Machine Learning Project using Python and Streamlit. Leveraging data analytics, weather data, and soil analysis, our system forecasts crop yields, empowering farmers with insights to make informed decisions. Tailored recommendations maximize productivity while minimizing risks, ensuring sustainable agricultural practices and higher yields.",
+    technologies: ["Python", "Streamlit"]
+  }
+  ,
   {
     title: "Portfolio Website",
     image: project3,
@@ -61,16 +62,16 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
   },
   {
-    title: "Blogging Platform",
+    title: "StockX",
     image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  },
+    description: "Machine Learning Project using Python and Streamlit. A stock market platform using machine learning, the model uses previous data to make predictions for stock prices.",
+    technologies: ["Python", "Streamlit"]
+  }
+  ,
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Mira Road(E) , Thane , Maharashra, Pin Code : 401107",
+  phoneNo: "+91 7039684670 ",
+  email: "enriquecrasto1@gmail.com",
 };
